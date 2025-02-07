@@ -78,13 +78,6 @@ To emulate this app on Android, you will need to install Android Debug Bridge (A
 
 ---
 
-## Learn More
-
-- [Expo Documentation](https://docs.expo.dev/): Explore fundamentals, guides, and advanced topics on how to develop apps with Expo.
-- [Expo Tutorial](https://docs.expo.dev/tutorial/introduction/): Step-by-step tutorial for creating apps that run on Android, iOS, and Web.
-  
----
-
 ## Community
 
 Join the Expo community:
