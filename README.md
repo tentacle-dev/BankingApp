@@ -78,6 +78,7 @@ To emulate this app on Android, you will need to install Android Debug Bridge (A
 
 ---
 
+<<<<<<< HEAD
 ## Learn More
 
 - [Expo Documentation](https://docs.expo.dev/): Explore fundamentals, guides, and advanced topics on how to develop apps with Expo.
@@ -85,6 +86,8 @@ To emulate this app on Android, you will need to install Android Debug Bridge (A
   
 ---
 
+=======
+>>>>>>> 635f522104e88174df11b1a9f44c2c66b3b4056c
 ## Community
 
 Join the Expo community:
@@ -94,10 +97,13 @@ Join the Expo community:
 
 ---
 
+<<<<<<< HEAD
 
 # Other Links
 
 - Notion - https://www.notion.so/React-Native-Banking-Application-1938a0901c2580f1ad34de49682d023c?showMoveTo=true&saveParent=true
 - Figma - https://www.figma.com/design/nxoSKSoTDdl0IpVB4qa2PY/iBank---Banking-%26-E-Money-Management-App-%7C-FinPay-%7C-Digital-%7C-Finance-Mobile-Banking-App-Ui-Kit-(Community)?m=auto&is-community-duplicate=1&fuid=1174554959799525531
 
+=======
+>>>>>>> 635f522104e88174df11b1a9f44c2c66b3b4056c
 Feel free to customize further based on your app's specifics!
