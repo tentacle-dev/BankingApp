@@ -1,14 +1,12 @@
-import { DarkTheme, DefaultTheme, ThemeProvider } from '@react-navigation/native';
-import { useFonts } from 'expo-font';
 import { Stack } from 'expo-router';
+import { useFonts } from 'expo-font';
 import * as SplashScreen from 'expo-splash-screen';
-import { StatusBar } from 'expo-status-bar';
 import { useEffect } from 'react';
-import 'react-native-reanimated';
-
 import { useColorScheme } from '@/hooks/useColorScheme';
 
 import "../global.css";
+import { View,StatusBar } from 'react-native';
+
 // Prevent the splash screen from auto-hiding before asset loading is complete.
 SplashScreen.preventAutoHideAsync();
 
@@ -29,12 +27,19 @@ export default function RootLayout() {
   }
 
   return (
-    <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
-      <Stack>
-        <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
-        <Stack.Screen name="+not-found" />
-      </Stack>
-      <StatusBar style="auto" />
-    </ThemeProvider>
+    <View style={{ flex: 1, backgroundColor: "#1E1E1E" }}>
+      <StatusBar backgroundColor="#0b2adb" barStyle="light-content" />
+    <Stack screenOptions={{
+      headerStyle: {
+        backgroundColor: "#0b2adb", // Set your desired background color
+      },
+      headerTintColor: "#FFFFFF", // Set title text color
+      headerTitleStyle: {
+        fontWeight: "bold",
+      },
+    }}>
+      <Stack.Screen name="index" options={{ title: "Sign In" }} />
+    </Stack>
+    </View>
   );
 }
